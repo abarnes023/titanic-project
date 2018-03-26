@@ -22,6 +22,6 @@ The Logistic Regression model and analysis in this report were created with refe
 The Python libraries used in this analysis include:
 - Pandas
 - NumPy
-- Sklearn
+- scikit-learn
 - Matplotlib
 - Seaborn
