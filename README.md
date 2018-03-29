@@ -25,3 +25,4 @@ The Python libraries used in this analysis include:
 - scikit-learn
 - Matplotlib
 - Seaborn
+- SciPy
