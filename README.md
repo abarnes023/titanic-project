@@ -16,9 +16,9 @@ The questions that this report tries to answer are: which factors were predictiv
 
 ### Analysis
 
-The report uses chi-square tests for independence, independent samples t-tests, and a Logistic Regression model to investigate the factors that best predict survival.
+The report uses chi-square tests for independence, Welch's t-tests, and a Logistic Regression model to investigate the factors that best predict survival.
 
-For the **independent samples t-tests**, the null hypothesis for the variables being investigated is that there is no difference in the population means for the survival group vs non-survival group. Under the null hypothesis, for example, the mean age for those that survived and those that did not survive would not be statistically different. My hypothesis is that the population means for the variables are different between the survival and non-survival groups (e.g. the mean age for those who survived is different than the mean for those who did not survive).
+For the **Welch's t-tests**, the null hypothesis for the variables being investigated is that there is no difference in the population means for the survival group vs non-survival group. Under the null hypothesis, for example, the mean age for those that survived and those that did not survive would not be statistically different. My hypothesis is that the population means for the variables are different between the survival and non-survival groups (e.g. the mean age for those who survived is different than the mean for those who did not survive).
 
 For the **chi-square tests for independence**, the null hypothesis is that knowing the value of the categorical variable (e.g. sex of the passenger) cannot help predict the survival outcome, and therefore survival and the variable are independent. My hypothesis is that these variables are not independent from survival outcome, and knowing their values can help predict survival or non-survival.
 
